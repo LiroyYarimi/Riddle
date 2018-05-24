@@ -10,7 +10,7 @@ import Foundation
 
 class QuestionBank {
     
-    var list = [Question]()   //we create a list. it's not(!) array
+    var list = [Question]()   //we create a list adll our questions.
     
     init(){
         // Creating a quiz item and appending it to the list
