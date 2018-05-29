@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		633646B91B8C657400FF45E2 /* Quizzler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizzler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		633646B91B8C657400FF45E2 /* Riddle.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Riddle.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		633646BD1B8C657400FF45E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633646BE1B8C657400FF45E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		633646C01B8C657400FF45E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,7 +30,7 @@
 		C81ADE1D2099EA5A0016AC87 /* secondeViewInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondeViewInfoViewController.swift; sourceTree = "<group>"; };
 		C8A123CA207E0B45000E4001 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		C8A123CC207E1755000E4001 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
-		C8F4F9F42084932700B194AF /* Quizzler-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quizzler-Bridging-Header.h"; sourceTree = "<group>"; };
+		C8F4F9F42084932700B194AF /* Riddle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Riddle-Bridging-Header.h"; sourceTree = "<group>"; };
 		C8F4F9F52084932700B194AF /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = "ProgressHUD-master/ProgressHUD/ProgressHUD/ProgressHUD.h"; sourceTree = SOURCE_ROOT; };
 		C8F4F9F62084932700B194AF /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = "ProgressHUD-master/ProgressHUD/ProgressHUD/ProgressHUD.bundle"; sourceTree = SOURCE_ROOT; };
 		C8F4F9F72084932700B194AF /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = "ProgressHUD-master/ProgressHUD/ProgressHUD/ProgressHUD.m"; sourceTree = SOURCE_ROOT; };
@@ -50,7 +50,7 @@
 		633646B01B8C657400FF45E2 = {
 			isa = PBXGroup;
 			children = (
-				633646BB1B8C657400FF45E2 /* Quizzler */,
+				633646BB1B8C657400FF45E2 /* Riddle */,
 				633646BA1B8C657400FF45E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +58,12 @@
 		633646BA1B8C657400FF45E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				633646B91B8C657400FF45E2 /* Quizzler.app */,
+				633646B91B8C657400FF45E2 /* Riddle.temp_caseinsensitive_rename.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		633646BB1B8C657400FF45E2 /* Quizzler */ = {
+		633646BB1B8C657400FF45E2 /* Riddle */ = {
 			isa = PBXGroup;
 			children = (
 				C8A123C9207E0B25000E4001 /* model */,
@@ -71,7 +71,7 @@
 				EBB1C72B1B946C4B0011F5C3 /* View */,
 				633646BC1B8C657400FF45E2 /* Supporting Files */,
 			);
-			path = Quizzler;
+			path = Riddle;
 			sourceTree = "<group>";
 		};
 		633646BC1B8C657400FF45E2 /* Supporting Files */ = {
@@ -82,7 +82,7 @@
 				C8F4F9F72084932700B194AF /* ProgressHUD.m */,
 				633646C71B8C657400FF45E2 /* LaunchScreen.xib */,
 				633646BD1B8C657400FF45E2 /* Info.plist */,
-				C8F4F9F42084932700B194AF /* Quizzler-Bridging-Header.h */,
+				C8F4F9F42084932700B194AF /* Riddle-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		633646B81B8C657400FF45E2 /* Quizzler */ = {
+		633646B81B8C657400FF45E2 /* Riddle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 633646D81B8C657400FF45E2 /* Build configuration list for PBXNativeTarget "Quizzler" */;
+			buildConfigurationList = 633646D81B8C657400FF45E2 /* Build configuration list for PBXNativeTarget "Riddle" */;
 			buildPhases = (
 				633646B51B8C657400FF45E2 /* Sources */,
 				633646B61B8C657400FF45E2 /* Frameworks */,
@@ -130,9 +130,9 @@
 			);
 			dependencies = (
 			);
-			name = Quizzler;
+			name = Riddle;
 			productName = Quizzler;
-			productReference = 633646B91B8C657400FF45E2 /* Quizzler.app */;
+			productReference = 633646B91B8C657400FF45E2 /* Riddle.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +152,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 633646B41B8C657400FF45E2 /* Build configuration list for PBXProject "Quizzler" */;
+			buildConfigurationList = 633646B41B8C657400FF45E2 /* Build configuration list for PBXProject "Riddle" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -165,7 +165,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				633646B81B8C657400FF45E2 /* Quizzler */,
+				633646B81B8C657400FF45E2 /* Riddle */,
 			);
 		};
 /* End PBXProject section */
@@ -270,6 +270,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Riddle;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -317,6 +318,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Riddle;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -329,12 +331,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BRUZ42SH8K;
-				INFOPLIST_FILE = Quizzler/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Riddle/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LiroyYarimi.Quizzler;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Quizzler/Quizzler-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiroyYarimi.Riddle;
+				PRODUCT_NAME = Riddle.temp_caseinsensitive_rename;
+				SWIFT_OBJC_BRIDGING_HEADER = "Riddle/Riddle-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -347,12 +349,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BRUZ42SH8K;
-				INFOPLIST_FILE = Quizzler/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Riddle/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LiroyYarimi.Quizzler;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Quizzler/Quizzler-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiroyYarimi.Riddle;
+				PRODUCT_NAME = Riddle.temp_caseinsensitive_rename;
+				SWIFT_OBJC_BRIDGING_HEADER = "Riddle/Riddle-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 			};
@@ -361,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		633646B41B8C657400FF45E2 /* Build configuration list for PBXProject "Quizzler" */ = {
+		633646B41B8C657400FF45E2 /* Build configuration list for PBXProject "Riddle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				633646D61B8C657400FF45E2 /* Debug */,
@@ -370,7 +372,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		633646D81B8C657400FF45E2 /* Build configuration list for PBXNativeTarget "Quizzler" */ = {
+		633646D81B8C657400FF45E2 /* Build configuration list for PBXNativeTarget "Riddle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				633646D91B8C657400FF45E2 /* Debug */,
