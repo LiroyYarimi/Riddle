@@ -3,6 +3,7 @@
 //  Quizzler
 //
 //  Created by liroy yarimi on 11.4.2018.
+//  Copyright © 2018 Liroy Yarimi. All rights reserved.
 //
 
 import Foundation
